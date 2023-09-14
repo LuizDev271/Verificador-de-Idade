@@ -25,6 +25,10 @@ div{
     padding: 10px;
 }
 
+input{
+    font-size: 20px;
+}
+
 footer{
     color: white;
     text-align: center;
@@ -35,5 +39,13 @@ footer{
     section{
         width: 350px;
         transition-duration: 0.7s;
+    }
+
+    section > div#res{
+        font-size: 18px;
+    }
+
+    input{
+        font-size: 20px;
     }
 }
