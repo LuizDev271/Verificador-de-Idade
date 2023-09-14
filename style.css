@@ -17,14 +17,23 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition-duration: 0.7s;
 }
 
-div#res{
-    padding-bottom: 10px;
+div{
+    text-align: center;
+    padding: 10px;
 }
 
 footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+@media screen and (max-width: 872px){
+    section{
+        width: 350px;
+        transition-duration: 0.7s;
+    }
 }
