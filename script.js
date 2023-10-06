@@ -14,16 +14,16 @@ function verificar(){
             img.setAttribute('id', 'foto')
             if (fsex[0].checked){
                 genero = 'Homem'
-                if (idade >= 0 && idade < 3){
+                if (idade >= 0 && idade <= 3){
                     //bebe
                     img.setAttribute('src', 'imagens/bebe-menino.png')
-                } else if (idade >= 4 && idade < 14){
+                } else if (idade >= 4 && idade <= 14){
                     //criança
                     img.setAttribute('src', 'imagens/menino.png')
-                } else if (idade >= 15 && idade < 21){
+                } else if (idade >= 15 && idade <= 21){
                     //jovem
                     img.setAttribute('src', 'imagens/jovem-masculino.png')
-                } else if (idade >= 21 && idade < 50){
+                } else if (idade >= 21 && idade <= 50){
                     //adulto
                     img.setAttribute('src', 'imagens/adulto.png')
                 } else if (idade >= 50){
@@ -32,16 +32,16 @@ function verificar(){
                 }
             } else if (fsex[1].checked){
                 genero = 'Mulher'
-                if (idade >= 0 && idade < 3){
+                if (idade >= 0 && idade <= 3){
                     //bebe
                     img.setAttribute('src', 'imagens/bebe-menina.png')
-                } else if (idade >= 4 && idade < 14){
+                } else if (idade >= 4 && idade <= 14){
                     //criança
                     img.setAttribute('src', 'imagens/menina.png')
-                } else if (idade >= 15 && idade < 21){
+                } else if (idade >= 15 && idade <= 21){
                     //jovem
                     img.setAttribute('src', 'imagens/jovem-feminina.png')
-                } else if (idade >= 21 && idade < 50){
+                } else if (idade >= 21 && idade <= 50){
                     //adulto
                     img.setAttribute('src', 'imagens/adulta.png')
                 } else if (idade >= 50){
